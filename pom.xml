@@ -8,22 +8,7 @@
   <name>01-maven-web-app Maven Webapp</name>
   <url>http://maven.apache.org</url>
   
-  
-  <distributionManagement>  
-		<repository>
-			<id>nexus</id>
-			<name>Ashok IT Releases Nexus Repo</name>
-			<url>http://13.126.227.96:8081/repository/ashokit-release-repository/</url>
-		</repository>
 
-		<snapshotRepository>
-			<id>nexus</id>
-			<name>Ashok IT Snapshots Nexus Repo</name>
-			<url>http://13.126.227.96:8081/repository/ashokit-snapshot-repository/</url>
-		</snapshotRepository>
-	
-	</distributionManagement>
- 
   
   <dependencies>
     <dependency>
